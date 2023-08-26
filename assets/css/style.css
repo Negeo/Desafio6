@@ -2,7 +2,10 @@ body {
     font-family: DM Serif Display;
     background-color: rgb(143, 156, 156);
 }
-
+.formacion {
+    display: inline-flex;
+    justify-content: space-around;
+}
 section i {
     font-size: 4rem;
     text-align: center;
