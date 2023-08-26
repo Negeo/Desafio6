@@ -2,9 +2,12 @@ body {
     font-family: DM Serif Display;
     background-color: rgb(143, 156, 156);
 }
+header {
+    padding-top: 5em;
+}
 .formacion {
     display: inline-flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 section i {
     font-size: 4rem;

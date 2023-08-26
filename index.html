@@ -47,96 +47,107 @@
           </div>
         </div>
       </nav>
-    <main>
-        <section>
-            <img src="assets/img/1690039547517.jpg"
-            style="width:150px" alt="foto">
-            <h2>Henri Latam</h2>
-            <div>
-                <h3>Datos Personales</h3>
-                <ul>
-                    <li><b>Nombre:</b> Henri Latam Dintrans Latam</li>
-                    <li><b>Fecha de Nacimiento:</b> 1 de Julio de 1892</li>
-                    <li><b>Lugar de Nacimiento:</b> Chiloe</li>
-                    <li><b>Nacionalidad:</b> Chilena</li>
-                </ul>
+<!-- Header con Reseña y Expectativas -->
+    <header id="yo" class="ps-5 pe-5 container-fluid">
+        <section class="row article-row">
+            <div class="col-xs-12 col-md-6">
+                <img src="assets/img/1690039547517.jpg"
+                style="width:150px" alt="foto">
+                <h2>Henri Dintrans</h2>
+                <h4>Estudiante TENS Informatico mención Ciberseguridad y Latam Fullstack</h4>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <h2 class="display-8 fw-bold text-md-start my-4">Mis Intereses</h2>
+                <p>Mi expectativa es poder crear aplicaciones web dinámicas, interactivas y seguras, que satisfagan las necesidades de los usuarios y que se adapten a diferentes dispositivos y plataformas. Para lograrlo, sé que tengo que estudiar mucho y practicar constantemente, pero estoy dispuesto a hacerlo porque me apasiona este campo.</p>
             </div>
         </section>
         <section>
-            <h3>Expectatívas</h3>
+            <h2 class="display-8 fw-bold text-md-start my-4">Expectatívas</h2>
             <p>Hola, soy un estudiante de informática y me gustaría aprender sobre full stack. Full stack significa que puedo desarrollar tanto el front-end como el back-end de una aplicación web. Me parece muy interesante y útil, porque así puedo tener más control sobre el diseño y la funcionalidad de mi proyecto. Además, creo que es una habilidad muy demandada en el mercado laboral, ya que las empresas buscan profesionales capaces de manejar diferentes tecnologías y lenguajes de programación. Mi expectativa es poder crear aplicaciones web dinámicas, interactivas y seguras, que satisfagan las necesidades de los usuarios y que se adapten a diferentes dispositivos y plataformas. Para lograrlo, sé que tengo que estudiar mucho y practicar constantemente, pero estoy dispuesto a hacerlo porque me apasiona este campo.</p>
         </section>
-
+    </header>
+    <main>
 <!-- Formación -->
-        <section id="Formacion" class="my-4 p-3 ps-5 pe-5 bg-secondary">
+        <section id="Formacion" class="my-4 p-3 ps-5 pe-5 bg-secondary container-fluid">
             <h2 class="display-5 fw-bold text-center my-4">Formación</h2>
-            <div class="text-light formacion">
-                <article class="col-12 col-md-4">
-                    <div>
-                        <img src="assets/img/pexels-katerina-holmes-5905445.jpg" alt="Imagen_educacion" class="img-fluid">
-                        <small>Foto de Katerina Holmes</small>
+            <div class="text-light formacion row article-row">
+                <article class="col-xs-12 col-md-6">
+                    <div >
+                        <img src="assets/img/pexels-cottonbro-studio-4778611.jpg" alt="Imagen_EstFormales" class="img-fluid">
+                        <small>Foto de cottonbro studio</small>
                         <h3 class="my-3 fw-bold">Secundaria y Superior</h3>
                         <p class="my-3">
                             <ul>
                                 <li>
-                                    <h4>Secundaria</h4>
-                                    <ul>
-                                        <li><b>Institución:</b> Liceo Bicentenario</li>
-                                        <li><b>Ciudad:</b> Chiloe</li>
-                                        <li><b>Año Ingreso:</b> 1905</li>
-                                        <li><b>Año Egreso:</b> 1908</li>
+                                    <h4><a data-bs-toggle="collapse" href="#collapseDisciplinar" role="button" aria-expanded="false" aria-controls="collapseDisciplinar">
+                                    Secundaria</a></h4>
+                                    <ul class="collapse text-black" id="collapseDisciplinar">
+                                        <li><b>Institución:</b> Liceo Oscar Castro Zuñiga</li>
+                                        <li><b>Ciudad:</b> Rancagua</li>
+                                        <li><b>Año Ingreso:</b> 1994</li>
+                                        <li><b>Año Egreso:</b> 1998</li>
                                         <li><b>Condición:</b> Graduado</li>
                                     </ul>
                                 </li>
                                 <br>
                                 <li>
-                                    <h4>Superior</h4>
-                                    <ul>
-                                        <li><b>Institución:</b> Universidad del Desarrollo</li>
-                                        <li><b>Carrera:</b> Ingeniería en Biotecnología</li>
-                                        <li><b>Ciudad:</b> Concepción</li>
-                                        <li><b>Año Ingreso:</b> 1914</li>
-                                        <li><b>Año Egreso:</b> 1918</li>
-                                        <li><b>Condición:</b> Abandonado</li>
-                                    </ul>
-                                    <br>
-                                    <ul>
-                                        <li><b>Institución:</b> Tecnológico de Monterrey</li>
-                                        <li><b>Carrera:</b> Técnivo Nivel Superior en Protocultura</li>
-                                        <li><b>Ciudad:</b> Monterrey</li>
-                                        <li><b>Año Ingreso:</b> 1920</li>
-                                        <li><b>Año Egreso:</b> 1923</li>
-                                        <li><b>Condición:</b> En curso</li>
-                                    </ul>
+                                    <h4><a data-bs-toggle="collapse" href="#collapseSuperior" role="button" aria-expanded="false" aria-controls="collapseSuperior">Superior</a></h4>
+                                    <div class="collapse text-black" id="collapseSuperior">
+                                        <ul >
+                                            <li><b>Institución:</b> Universidad de Viña del Mar</li>
+                                            <li><b>Carrera:</b> Ingeniería Civil Industrial</li>
+                                            <li><b>Ciudad:</b> Viña del Mar</li>
+                                            <li><b>Año Ingreso:</b> 2014</li>
+                                            <li><b>Año Egreso:</b> 2017</li>
+                                            <li><b>Condición:</b> Abandonado</li>
+                                        </ul>
+                                        <br>
+                                        <ul>
+                                            <li><b>Institución:</b> Tecnológico Valparaíso</li>
+                                            <li><b>Carrera:</b> Técnivo Nivel Superior en Informática Mención en Ciberseguridad </li>
+                                            <li><b>Ciudad:</b> Viña del Mar</li>
+                                            <li><b>Año Ingreso:</b> 2022</li>
+                                            <li><b>Año Egreso:</b> 2024</li>
+                                            <li><b>Condición:</b> En curso</li>
+                                        </ul>
+                                    </div>
+                                    
                                 </li>
                             </ul>
                         </p>
                     </div>
                 </article>
-                <article class="col-12 col-md-4">
+                <article class="col-12 col-md-6">
                     <div>
-                        <img src="assets/img/pexels-karolina-grabowska-5632379.jpg" alt="Imagen_ventas" class="img-fluid">
-                        <small>Foto de Karolina Grabowska</small>
+                        <img src="assets/img/pexels-ketut-subiyanto-4473569.jpg" alt="Imagen_Habiliades" class="img-fluid">
+                        <small>Foto de Ketut Subiyanto</small>
                         <h3 class="my-3 fw-bold">Habilidades y otros Conocimientos</h3>
                         <p class="my-3">
-                            <ol>
+                            <ul>
                                 <li>
-                                    SQL Básico
+                                    <h4><a data-bs-toggle="collapse" href="#collapseOtros" role="button" aria-expanded="false" aria-controls="collapseOtros">Otros Concocimientos</a></h4>
+                                    <ol class="collapse text-black" id="collapseOtros">
+                                        <li>SQL Junior</li>
+                                        <li>Microsoft Office Intermedio</li>
+                                        <li>Soporte Informático</li>
+                                        <li>Microsoft Windows 7 Intermedio</li>
+                                        <li>Phyton Junior</li>
+                                    </ol>
                                 </li>
+                                <br>
                                 <li>
-                                    Microsoft Office Intermedio
+                                    <h4><a data-bs-toggle="collapse" href="#collapseHabilidades" role="button" aria-expanded="false" aria-controls="collapseHabilidades">Habilidades</a></h4>
+                                    <div class="collapse text-black" id="collapseHabilidades">
+                                        <ol >
+
+                                        </ol>
+                                    </div>
+                                    
                                 </li>
-                                <li>
-                                    Soporte Informático
-                                </li>
-                                <li>
-                                    Microsoft Windows 7 Intermedio
-                                </li>
-                            </ol>
+                            </ul>
                         </p>
                     </div>
                 </article>
-                
             </div>
         </section>
 <!-- Experiencia -->
@@ -148,12 +159,27 @@
                         <img src="assets/img/pexels-katerina-holmes-5905445.jpg" alt="Imagen_educacion" class="img-fluid">
                         <small>Foto de Katerina Holmes</small>
                         <h3 class="my-3 fw-bold">Educación</h3>
-                        <p class="my-3">
-                            HTML significa HyperText Markup Language, que significa lenguaje de marcado de hipertexto. HTML consiste en etiquetas que definen la estructura y el contenido de una página web, como los encabezados, los párrafos, las imágenes, los enlaces, etc. Para ver una página web creada con HTML, se necesita un navegador web que interprete el código HTML y lo muestre en la pantalla.
-                        </p>
-                    </div>
-                    <div>
-                        <a class="btn btn-secondary bg-dark" href="portafolio.html#Curriculum">Ver más</a>
+                        <div class="my-3">
+                            <h5><a data-bs-toggle="collapse" href="#collapseParticular" role="button" aria-expanded="false" aria-controls="collapseParticular">
+                            Profesor Particular</a></h5>
+                            <div class="collapse" id="collapseParticular">
+                                <p>Realización de clases particulares en Matemática, Estadística, Física, Contabilidad y Finanzas</p>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <h5><a data-bs-toggle="collapse" href="#collapseDisciplinar" role="button" aria-expanded="false" aria-controls="collapseDisciplinar">
+                            Tutor Disciplinar</a></h5>
+                            <div class="collapse" id="collapseDisciplinar">
+                                <p>Tutor de la carrera Ingeniería Civil Industrial. Entre las tareas del cargo se encontraba: recopilar información de alumnos que ingresaron a la carrera, ser un canal de comunicación entre alumnos y directivos de la carrera, asistir a los alumnos de primera años respondiendo sus consultas y guiándolos en sus primeros pasos en la universidad, realizar tutorías en áreas que les representaba alguna dificultad o que necesitaban algún refuerzo en las materias de la carrera (esto enfocado a cualquier nivel de la carrera y diferentes ramos).</p>
+                            </div>
+                        </div>
+                        <div class="my-3">
+                            <h5><a data-bs-toggle="collapse" href="#collapseFísica" role="button" aria-expanded="false" aria-controls="collapseFísica">
+                            Tutor Física</a></h5>
+                            <div class="collapse" id="collapseFísica">
+                                <p>Tutor disciplinar en el area de física, en la cual se prestaba apoyo a los alumnos del ramo tanto en jornada diurna como vespertina de diversas carreras. En caso talleres de física y en física general mecánica</p>
+                            </div>
+                        </div>
                     </div>
                 </article>
                 <article class="col-12 col-md-4">
@@ -162,11 +188,8 @@
                         <small>Foto de Karolina Grabowska</small>
                         <h3 class="my-3 fw-bold">Ventas</h3>
                         <p class="my-3">
-                            Con CSS, se puede cambiar el color, la fuente, el tamaño, el fondo, el borde y la posición de los elementos HTML. CSS también permite crear animaciones, transiciones y efectos visuales. CSS se escribe en un archivo separado del HTML, y se enlaza con la etiqueta link en el head de la página. Así, se puede modificar el aspecto de toda la página sin tener que cambiar el HTML.
+                            Tengo una amplia experiencia de más de 15 años en el rubro de la electrónica menor. Me dedico a comprar y vender diversos dispositivos, desde gadgets hasta cámaras de seguridad. Mi objetivo es asesorar a mis clientes de forma personalizada, analizando sus necesidades y ofreciéndoles el producto que mejor se adapte a sus necesidades. Además, realizé asesoría en terreno e instalación de productos de electrónica menor relacionados a domótica, como switch, ampolletas, cámaras, etc. Me gusta trabajar con un tono casual y cercano, para generar confianza y satisfacción en mis clientes.
                         </p>
-                    </div>
-                    <div>
-                        <a class="btn btn-secondary bg-dark" href="portafolio.html#Cajitas">Ver más</a>
                     </div>
                 </article>
                 <article class="col-12 col-md-4">
@@ -175,11 +198,8 @@
                         <small>Foto de Anete Lusina</small>
                         <h3 class="my-3 fw-bold">Mantención PC's</h3>
                         <p class="my-3">
-                            Bootstrap es un framework de diseño web que te permite crear sitios web responsivos y adaptables a diferentes dispositivos. Con Bootstrap, puedes usar componentes predefinidos como botones, menús, formularios, tarjetas, etc. para facilitar el desarrollo de tu página web. Bootstrap también incluye un sistema de cuadrícula que te ayuda a organizar el contenido de tu sitio web de forma flexible y consistente.
+                            Me dedico al servicio técnico de computadores desde hace mucho tiempo. Me encanta resolver los problemas que tienen las máquinas y hacerlas funcionar mejor. Puedo diagnosticar, actualizar y reparar gran variedad de computadores, ya sea de escritorio o portátil. Tengo conocimientos de hardware y software, y siempre trato de estar al día con las últimas novedades del sector.
                         </p>
-                    </div>
-                    <div>
-                        <a class="btn btn-secondary bg-dark" href="portafolio.html#Cuppon">Ver más</a>
                     </div>
                 </article>
             </div>
