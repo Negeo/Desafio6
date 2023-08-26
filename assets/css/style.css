@@ -1,0 +1,24 @@
+body {
+    font-family: DM Serif Display;
+    background-color: rgb(143, 156, 156);
+}
+
+
+
+footer p,a{
+    color: white;
+    text-decoration: solid;
+    font-weight: lighter;
+    margin: 0px;
+    text-align: left;
+}
+.corporate {
+    text-align: left;
+    text-decoration:wavy;
+}
+.redes {
+    color: aqua;
+    text-align: right;
+    padding-left: 1%;
+    letter-spacing: 5px;
+}
