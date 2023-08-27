@@ -3,43 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Link Iconos Flaticon Icons-->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <!-- Link Google Fonts DM Serif Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>PORTAFOLIO</title>
-    <style>
-        table, tr,td,th {
-            border: 2px solid blue;
-            border-collapse: collapse;
-            table-layout: fixed;
-            height: 100%;
-            width: 100%;
-            padding-left: 10px;
-            padding-top: 5px;
-            vertical-align: top;
-        }
-    </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td id="Curriculum">Curriculum</td>
-            <td> <a href="index.html"><img src="assets/img/html.png" style="width:350px" alt="Captura Curriculum"></td></a>
-        </tr>
-        <tr>
-            <td id="Cajitas">Cajitas CSS</td>
-            <td> <a href="index.html"><img src="assets/img/css.png" style="width:350px" alt="Captura Cajitas CSS"></td></a>
-        </tr>
-        <tr>
-            <td id="Iguana">Iguana Flex</td>
-            <td> <a href="index.html"><img src="assets/img/flex.png" style="width:350px" alt="Captura Iguana Flex"></td></a>
-        </tr>
-        <tr>
-            <td id="Cuppon">Cuppon Bootstrap</td>
-            <td> <a href="index.html"><img src="assets/img/bootstrap.png" style="width:350px" alt="Captura Cuppon Bootstrap"></td></a>
-        </tr>
-        <tr>
-            <td id="Cuppon">Fork Git</td>
-            <td> <a href="index.html"><img src="assets/img/fork.png" style="width:350px" alt="Captura Cuppon Bootstrap"></td></a>
-        </tr>
-    </table>
+    <!-- Menu de Navegación fijado en top -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Henri Dintrans</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="portafolio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Curriculum</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Proyectos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#Curriculum">Curriculum</a></li>                    
+                  <li><a class="dropdown-item" href="#Cajitas">CSS</a></li>
+                  <li><a class="dropdown-item" href="#Iguana">Flex</a></li>
+                  <li><a class="dropdown-item" href="#Cuppon">Bootstrap</a></li>
+                  <li><a class="dropdown-item" href="#ForkGit">Fork Git</a></li>
+                  <li><a class="dropdown-item" href="#Final">Curriculum Final</a></li>
+                  <li><a class="dropdown-item" href="#Redes Sociales">Redes Sociales</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <main class="tablestyle">
+        <table>
+            <tr>
+                <td id="Curriculum">Curriculum</td>
+                <td> <a href="index.html" target="_blank"><img src="assets/img/html.png" class="portafolioimg" alt="Captura Curriculum"></td></a>
+            </tr>
+            <tr>
+                <td id="Cajitas">Cajitas CSS</td>
+                <td> <a href="https://negeo.github.io/Desafio2/" target="_blank"><img src="assets/img/css.png" class="portafolioimg" alt="Captura Cajitas CSS"></td></a>
+            </tr>
+            <tr>
+                <td id="Iguana">Iguana Flex</td>
+                <td> <a href="https://negeo.github.io/Desafio3/" target="_blank"><img src="assets/img/flex.png" class="portafolioimg" alt="Captura Iguana Flex"></td></a>
+            </tr>
+            <tr>
+                <td id="Cuppon">Cuppon Bootstrap</td>
+                <td> <a href="https://negeo.github.io/Desafio4/" target="_blank"><img src="assets/img/bootstrap.png" class="portafolioimg" alt="Captura Cuppon Bootstrap"></td></a>
+            </tr>
+            <tr>
+                <td id="ForkGit">Fork Git</td>
+                <td> <a href="https://negeo.github.io/desafio5-github/" target="_blank"><img src="assets/img/fork.png" class="portafolioimg" alt="Captura Cuppon Bootstrap"></td></a>
+            </tr>
+            <tr>
+                <td id="Final">Curriculum Final</td>
+                <td> <a href="index.html"><img src="assets/img/Curriculum Final.png" class="portafolioimg" alt="Captura Cuppon Bootstrap"></td></a>
+            </tr>
+        </table>
+    </main>
+    <footer id="Redes Sociales"  class="m-0 row justify-content-center bg-dark p-2">
+        <p class="col-auto text-center  corporate">©2023<a href="index.html"> Henri Dintrans</a></p>
+        <div class="col-auto text-center">
+            <a href="https://www.linkedin.com/in/henri-dintrans-9997b974/" target="_blank"><i class="fi fi-brands-linkedin redes"></i></a>
+            <a href="https://github.com/Negeo" target="_blank"><i class="fi fi-brands-github redes"></i></a>
+        </div>
+    </footer>
+<!-- Paquete Bootstrap con Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 </html>
